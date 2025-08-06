@@ -5,8 +5,18 @@
         "page": "Main_Page"
     },
     {
-        "title": "Playground for fooling around",
+        "title": "Playground",
         "blurb": "Place for testing formatting, editable to free will.",
         "page": "Playground"
+    },
+    {
+        "title": "CEE (C#)",
+        "blurb": "CEE is a C# implementation of KEE, written and maintained by TheZoidMaster.",
+        "page": "Implementations/CEE_(C#)"
+    },
+    {
+        "title": "KEE (Rust)",
+        "blurb": "The current standard implementation of KEE, written and maintained by Jaegerwald.",
+        "page": "Implementations/KEE_(Rust)"
     }
 ]
