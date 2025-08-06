@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W4SP</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/page_types.css">
+    <link rel="stylesheet" id="theme" href="src/themes/wasp-yellow.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <script src="src/api.js"></script>
+    <script src="src/page_link.js"></script>
+</head>
+<body>
+    <aside class="panel closed" id="sidebar">
+        <span class="logo">
+            <img src="img/wasp.png" draggable="false" id="logo">
+            <img src="img/wasp_text.png" draggable="false" alt="W4SP" class="logoText">
+        </span>
+    </aside>
+    <header class="panel">
+        <span id="mobileNav">
+            <img src="ico/menu-2.svg" id="burger" draggable="false">
+            <page-link href="/wiki/Main_Page"><img src="img/wasp_text.png" class="logoText" draggable="false"></page-link>
+        </span>
+        <span id="search" class="right">
+            <input placeholder="Search..."></input>
+            <button>Search</button>
+        </span>
+    </header>
+    <nav class="panel">
+        <span id="titleContainer">
+            <h1 id="title"></h1>
+            <hr>
+        </span>
+        <span id="tabContainer">
+            <button class="tab" id="tabHistory">Commit History</button>
+            <button class="tab" id="tabSource">Source</button>
+            <button class="tab active" id="tabRead">Read</button>
+        </span>
+    </nav>
+    <main class="panel">
+        <div class="page active" id="pageRead"></div>
+        <div class="page" id="pageSource">
+            <a href="#" id="viewFile">View on GitHub</a> | 
+            <a href="#" id="editFile">Edit</a> | 
+            <a id="viewRepository">View Repository</a>
+            <pre><code id="markdownRaw"></code></pre>
+        </div>
+        <div class="page" id="pageHistory"></div>
+        <footer><span class="version">v1.0.0-alpha.2</span><span class="right">Created with <a href="https://github.com/JaegerwaldDev/W4SP"><img src="img/wasp_text.png" style="vertical-align: middle;" height="16px" alt="W4SP"></a></span></footer>
+    </main>
+    <script src="src/github_api.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>

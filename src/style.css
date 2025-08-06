@@ -1,0 +1,147 @@
+:root {
+    scroll-behavior: smooth; /* smooth scroll when you click <a href="#shit"> */
+}
+
+body {
+    user-select: none; /* :grr: */
+    
+    display: grid; /* grid my beloved */
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto 1fr;
+
+    margin: 0px;
+    min-height: 100vh;
+    width: auto;
+
+    gap: 1px;
+    max-width: 100vw;
+}
+.panel {
+    user-select: text;
+
+    padding: 16px;
+}
+.logo,
+.logo > #logo {
+    user-select: none;
+    width: 256px;
+    display: block;
+}
+.logo > .logoText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+aside {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    width: 256px;
+}
+header {
+    grid-column: 2;
+    grid-row: 1;
+
+    height: 24px;
+    gap: 8px;
+}
+nav {
+    grid-column: 2;
+    grid-row: 2;
+
+    height: auto;
+    padding-bottom: 0px !important;
+}
+nav h1 {
+    margin: 0px;
+    font-size: 32px;
+}
+nav .tab {
+    float: right;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+}
+nav hr {
+    margin-top: 14.5px;
+    margin-bottom: 0px;
+}
+
+main {
+    grid-column: 2;
+    grid-row: 3;
+    height: min-content;
+}
+
+a, page-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.page {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.page.active {
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+#mobileNav {
+    user-select: none;
+    display: none;
+}
+#mobileNav img {
+    height: 32px !important;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    #mobileNav {
+        display: inline;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        position: fixed;
+        height: 100%;
+    }
+
+    #search:has(input:placeholder-shown) button {
+        display: none;
+    }
+    #search:not(:has(input:placeholder-shown)) {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        margin-left: unset !important;
+        margin-right: unset !important;
+    }
+
+    #sidebar.closed {
+        display: none;
+    }
+    body:has(#sidebar:not(.closed)) #search {
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "LOCAL": true,
+
+    "name": "KEE",
+
+    "repo": "Jaegerwald/KeeWiki",
+    "branch": "main",
+    "theme": "src/themes/nest-modern.css",
+    "logo": "img/kee_wip.png",
+    "logo_text": "img/kee_text_wip.png",
+
+    "sidebar": {
+        "sections": [
+            {
+                "title": "Main menu",
+                "links": [
+                    {
+                        "name": "Main page",
+                        "link": "/wiki/Main_Page",
+                        "page": true
+                    },
+                    {
+                        "name": "Contents",
+                        "link": "/wiki/Special:Contents",
+                        "page": true
+                    },
+                    {
+                        "name": "Random page",
+                        "link": "/wiki/Special:Random",
+                        "page": true
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "name": "KEE GitHub",
+                "link": "https://github.com/Jaegerwald/KEE"
+            },
+            {
+                "name": "CEE GitHub",
+                "link": "https://github.com/TheZoidMaster/CEE"
+            },
+                "name": "KEECHAIN GitHub",
+                "link": "https://github.com/Jaegerwald/KEECHAIN"
+            }
+        ]
+    }
+}
