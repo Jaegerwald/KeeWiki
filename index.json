@@ -5,27 +5,8 @@
         "page": "Main_Page"
     },
     {
-        "title": "This file doesn't have a header!",
-        "page": "Headerless_File"
-    },
-    {
         "title": "Playground for fooling around",
         "blurb": "Place for testing formatting, editable to free will.",
         "page": "Playground"
-    },
-    {
-        "title": "Contact",
-        "blurb": "Information on how and where to reach to us.",
-        "page": "Contact"
-    },
-    {
-        "title": "Markdown Syntax",
-        "blurb": "Standard markdown test.",
-        "page": "Markdown_Test"
-    },
-    {
-        "title": "File in a Folder",
-        "blurb": "This file is in a folder!",
-        "page": "some_folder/File_in_a_Folder"
     }
 ]
