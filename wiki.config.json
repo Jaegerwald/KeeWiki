@@ -36,11 +36,13 @@
                 "links": [
                     {
                         "name": "KEE (Rust)",
-                        "link": "/wiki/Implementations/KEE_(Rust)"
+                        "link": "/wiki/Implementations/KEE_(Rust)",
+                        "page": true
                     },
                     {
                         "name": "CEE (C#)",
-                        "link": "/wiki/Implementations/CEE_(C_)"
+                        "link": "/wiki/Implementations/CEE_(C_)",
+                        "page": true
                     }
                 ]
             }
