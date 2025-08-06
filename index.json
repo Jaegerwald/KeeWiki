@@ -10,13 +10,13 @@
         "page": "Playground"
     },
     {
-        "title": "CEE (C#)",
-        "blurb": "CEE is a C# implementation of KEE, written and maintained by TheZoidMaster.",
-        "page": "Implementations/CEE_(C#)"
-    },
-    {
         "title": "KEE (Rust)",
         "blurb": "The current standard implementation of KEE, written and maintained by Jaegerwald.",
         "page": "Implementations/KEE_(Rust)"
+    },
+    {
+        "title": "CEE (C#)",
+        "blurb": "CEE is a C# implementation of KEE, written and maintained by TheZoidMaster.",
+        "page": "Implementations/CEE_(C_)"
     }
 ]

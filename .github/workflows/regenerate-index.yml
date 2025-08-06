@@ -24,6 +24,6 @@ jobs:
                   git config --local user.email "action@github.com"
                   git config --local user.name "GitHub Action"
                   git add index.json
-                  git diff-index HEAD || git commit -m "Update index.json [skip ci]"
+                  git diff-index --quiet HEAD || git commit -m "Update index.json [skip ci]"
             - name: Push changes
               run: git push
