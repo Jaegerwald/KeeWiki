@@ -30,6 +30,19 @@
                         "page": true
                     }
                 ]
+            },
+            {
+                "title": "Maintained implementations",
+                "links": [
+                    {
+                        "name": "KEE (Rust)",
+                        "link": "/wiki/Implementations/KEE_(Rust)"
+                    },
+                    {
+                        "name": "CEE (C#)",
+                        "link": "/wiki/Implementations/CEE_(C#)"
+                    }
+                ]
             }
         ],
         "links": [

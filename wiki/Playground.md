@@ -1,5 +1,5 @@
 ---
-title: Playground for fooling around
+title: Playground
 type: default
 blurb: Place for testing formatting, editable to free will.
 ---
