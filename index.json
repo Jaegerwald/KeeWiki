@@ -1,5 +1,9 @@
 [
     {
+        "title": "File Extensions",
+        "page": "File_Extensions"
+    },
+    {
         "title": "Main Page",
         "blurb": "W4SP is a Wiki System designed to be hosted on static pages.",
         "page": "Main_Page"
@@ -10,13 +14,29 @@
         "page": "Playground"
     },
     {
-        "title": "KEE (Rust)",
-        "blurb": "The current standard implementation of KEE, written and maintained by Jaegerwald.",
-        "page": "Implementations/KEE_(Rust)"
+        "title": "Writing Guidelines",
+        "page": "Writing_Guidelines"
+    },
+    {
+        "title": ".KEE file format",
+        "page": "File_Formats/KEE"
+    },
+    {
+        "title": ".XK2 file format",
+        "page": "File_Formats/XK2"
+    },
+    {
+        "title": ".XKEE file format",
+        "page": "File_Formats/XKEE"
     },
     {
         "title": "CEE (C#)",
         "blurb": "CEE is a C# implementation of KEE, written and maintained by TheZoidMaster.",
         "page": "Implementations/CEE_(C_)"
+    },
+    {
+        "title": "KEE (Rust)",
+        "blurb": "The current standard implementation of KEE, written and maintained by Jaegerwald.",
+        "page": "Implementations/KEE_(Rust)"
     }
 ]
